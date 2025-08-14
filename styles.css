@@ -1,12 +1,8 @@
 /* 기본 스타일 */
-:root {
-  --bg: #0b0f19;
-  --card: #111729;
-  --text: #e6e9ef;
-  --muted: #b3b8c4;
-  --accent: #7c9cff;
-  --accent-2: #56d4c2;
-  --border: #1a2136;
+:root{
+  --bg:#0f0a1f; --card:#17112b; --text:#fff; --muted:#cbbbe0;
+  --accent:#ff7ce5; --accent-2:#7cf3ff; --border:#2a2146;
+}
   --radius: 16px;
   --shadow: 0 10px 30px rgba(0,0,0,.35);
 }
@@ -92,4 +88,5 @@ p { margin: 0 0 12px; color: var(--muted); }
 @media (max-width: 640px) {
   .cards, .kpis { grid-template-columns: 1fr; }
   .container { padding-top: 80px; }
+
 }
