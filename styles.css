@@ -6,8 +6,7 @@
   --muted:#cbbbe0;
   --accent:#ff7ce5;
   --accent-2:#7cf3ff;
-  --border:#2a2146;
-}
+  --border:#2a2146;}
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
@@ -92,5 +91,6 @@ p { margin: 0 0 12px; color: var(--muted); }
   .container { padding-top: 80px; }
 
 }
+
 
 
